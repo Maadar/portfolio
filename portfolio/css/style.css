@@ -1,0 +1,536 @@
+body {
+  font-family: 'Tillana', cursive;
+  color: white; }
+  body .navbar-inverse {
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+    background-color: rgba(10, 10, 10, 0.7);
+    border: none;
+    border-radius: 0;
+    height: 3rem;
+    font-size: 2.5rem;
+    border-bottom: 0.1rem solid #FFFFFF;
+    margin-bottom: 0;
+    box-shadow: 0 0 3.9rem 0 rgba(255, 255, 255, 0.75); }
+    body .navbar-inverse .navbar-nav li a {
+      transition-property: background;
+      transition-duration: 0.3s;
+      color: white; }
+      body .navbar-inverse .navbar-nav li a:hover {
+        background: #FFAF02;
+        color: #000000; }
+  body .content {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding: 4% 10%;
+    background-image: url("../img/wallpaperMain.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto; }
+    body .content .content-margin_reduction {
+      margin-left: 0;
+      margin-right: 0; }
+    body .content .content-intro {
+      text-shadow: 0.2rem 0.2rem 0 #969696; }
+      body .content .content-intro h1 {
+        font-size: 6rem;
+        padding: 5% 0; }
+      body .content .content-intro h2 {
+        font-size: 3rem;
+        margin-bottom: 6%; }
+    body .content .content-styles-2 h2 {
+      font-size: 2.2rem; }
+    body .content .buttons {
+      margin-top: 5%;
+      margin-bottom: 10%; }
+      body .content .buttons a {
+        color: white; }
+      body .content .buttons .buttons-styles {
+        border-radius: 0.8rem;
+        background-color: transparent;
+        border: 0.6rem solid #F0F5F9;
+        color: #F0F5F9;
+        font-size: 3.5rem;
+        padding: 1.3rem;
+        width: 30%;
+        transition: all 0.5s;
+        cursor: pointer;
+        overflow: hidden;
+        position: relative; }
+        body .content .buttons .buttons-styles span {
+          position: relative;
+          transition: 0.5s; }
+          body .content .buttons .buttons-styles span:after {
+            background: #FFFFFF;
+            content: "";
+            height: 14.2rem;
+            left: -23.55rem;
+            opacity: .4;
+            position: absolute;
+            top: -1.4em;
+            transform: rotate(35deg);
+            transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+            width: 1.125em; }
+      body .content .buttons .buttons-styles:hover span {
+        padding-right: 1.56em;
+        color: #ED9728; }
+      body .content .buttons .buttons-styles:hover span:after {
+        opacity: 1;
+        right: 0;
+        left: 220%;
+        transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1); }
+  body .projects {
+    padding-top: 5%;
+    padding-bottom: 10%;
+    background: #FFFFFF;
+    color: #EEEEEE;
+    text-align: center; }
+    body .projects .projects_styles {
+      margin-left: 0;
+      margin-right: 0; }
+    body .projects .projects__title {
+      color: #222222;
+      padding-bottom: 3%; }
+      body .projects .projects__title h2 {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 4rem; }
+      body .projects .projects__title p {
+        color: #B5B5B5; }
+    body .projects .projects__img {
+      width: 100%;
+      height: 39.5rem;
+      background: #000000;
+      margin-left: auto;
+      margin-right: auto; }
+      body .projects .projects__img h2 {
+        font-size: 2rem;
+        margin-top: 3.4rem;
+        font-weight: 700; }
+      body .projects .projects__img .photo {
+        background-image: url("../img/wallpaper.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%; }
+      body .projects .projects__img .photo2 {
+        background-image: url("../img/wallpaper.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%; }
+      body .projects .projects__img .photo3 {
+        background-image: url("../img/wallpaper.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%; }
+      body .projects .projects__img .photo4 {
+        background-image: url("../img/wallpaper.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%; }
+      body .projects .projects__img .woop {
+        background: #EBC135;
+        width: 100%;
+        height: 30rem;
+        opacity: 0;
+        transition: 0.3s; }
+        body .projects .projects__img .woop .text {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center; }
+          body .projects .projects__img .woop .text a {
+            font-size: 5rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: white;
+            text-decoration: none;
+            transition-property: color;
+            transition-duration: 0.3s; }
+            body .projects .projects__img .woop .text a:hover {
+              color: #000000; }
+      body .projects .projects__img .woop:hover {
+        opacity: 0.8;
+        cursor: pointer; }
+    body .projects img {
+      transition: 0.3s; }
+    body .projects img:hover {
+      opacity: 0.7;
+      cursor: pointer; }
+  body .aboutMe {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color: #333333;
+    text-align: center;
+    background-image: url("../img/wallpaper-about-me.jpg");
+    background-repeat: no-repeat;
+    width: 100%; }
+    body .aboutMe .aboutMe-margin_reduction {
+      margin: 0; }
+    body .aboutMe .aboutMe-title {
+      color: #222222;
+      padding-bottom: 8rem;
+      margin-top: 5rem; }
+      body .aboutMe .aboutMe-title h2 {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 4rem; }
+    body .aboutMe .aboutMe-content {
+      box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.75);
+      margin-left: 10rem;
+      margin-right: 10rem;
+      background-color: rgba(255, 255, 255, 0.5);
+      padding: 7% 9rem;
+      text-align: justify center; }
+      body .aboutMe .aboutMe-content .sub {
+        width: 70%;
+        background: #CCCCCC;
+        opacity: 0.6;
+        margin-left: -120px;
+        color: #000000;
+        font-size: 30px;
+        font-style: italic;
+        padding: 10px;
+        text-align: center;
+        position: relative;
+        margin-bottom: 8rem; }
+        body .aboutMe .aboutMe-content .sub .arch {
+          border-left: 30px solid transparent;
+          border-top: 15px solid #BBBBBB;
+          width: 0;
+          height: 0;
+          line-height: 0;
+          position: absolute;
+          top: 100%;
+          left: 0; }
+      body .aboutMe .aboutMe-content p {
+        font-size: 2.5rem;
+        font-style: italic;
+        line-height: 3rem;
+        margin-bottom: 3rem; }
+  body .skills {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: #FFFFFF;
+    color: #000000;
+    width: 100%; }
+    body .skills .skills-margin_reduction {
+      margin-left: 0;
+      margin-right: 0; }
+    body .skills .skills-title {
+      margin-bottom: 3%; }
+      body .skills .skills-title h2 {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 4rem; }
+    body .skills .skills-header-technologies {
+      margin-top: 3%;
+      margin-bottom: 5%; }
+    body .skills .skills-header-tools {
+      padding-top: 5%;
+      padding-bottom: 3%; }
+    body .skills .skills-whatCanIDo ul li {
+      text-transform: uppercase;
+      background: transparent;
+      color: #FFAF02;
+      font-size: 2.4rem;
+      border: none;
+      font-weight: 900; }
+    body .skills .skills-whatCanIDo ul hr {
+      border: 0;
+      height: 0.3rem;
+      background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+      background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+      background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+      background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); }
+    body .skills .skills-whatCanIDo h2 {
+      margin-bottom: 6rem; }
+    body .skills .skills-images {
+      margin-top: 6rem;
+      margin-bottom: 6rem; }
+      body .skills .skills-images .skills-images_technologies img {
+        padding-bottom: 10%;
+        height: 60%;
+        width: 60%; }
+    body .skills .skills-images2 .skills-images_tools img {
+      margin: 5rem 0;
+      width: 80%;
+      height: 80%; }
+  body .contact {
+    background-image: url("../img/wallpaper-contact.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%; }
+    body .contact .contact-margin_reduction {
+      margin: 0; }
+    body .contact .contact-title {
+      margin-bottom: 3%; }
+      body .contact .contact-title h2 {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 4rem; }
+    body .contact .contact-header h3 {
+      color: #000000;
+      font-weight: 900;
+      font-size: 2.5rem;
+      margin-bottom: 3%; }
+    body .contact .contact-header hr {
+      border: 0;
+      height: 0.3rem;
+      background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+      background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+      background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+      background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); }
+    body .contact .contact-form_styles form {
+      margin: 2% 0;
+      color: #FFFFFF; }
+      body .contact .contact-form_styles form .nameAndSurname, body .contact .contact-form_styles form .email {
+        border: 0.1rem solid #FFFFFF;
+        margin-top: 2%;
+        border-radius: 1rem;
+        width: 49.4%;
+        outline: none;
+        background: #222222;
+        padding: 1rem; }
+        body .contact .contact-form_styles form .nameAndSurname:focus, body .contact .contact-form_styles form .email:focus {
+          border: 0.1rem solid #000000; }
+      body .contact .contact-form_styles form textarea {
+        width: 100%;
+        height: 30rem;
+        background: #222222;
+        margin: 2% 0rem;
+        border: 0.1rem solid #FFFFFF;
+        outline: none;
+        padding: 1rem;
+        border-radius: 1rem;
+        resize: none; }
+        body .contact .contact-form_styles form textarea:focus {
+          border: 0.1rem solid #000000;
+          padding: 1.1rem; }
+      body .contact .contact-form_styles form .submit {
+        height: 6rem;
+        text-transform: uppercase;
+        letter-spacing: 0.3rem;
+        font-size: 2rem;
+        background: #FFAF02;
+        width: 40%;
+        color: #000000;
+        outline: none;
+        border-radius: 1rem;
+        transition: 0.2s;
+        border: 0.1rem solid #FFFFFF; }
+        body .contact .contact-form_styles form .submit:hover {
+          border: 0.1rem solid #000000;
+          background: #EE9E01;
+          color: #000000;
+          font-weight: 900; }
+    body .contact .contact-social {
+      background-color: rgba(0, 0, 0, 0.3);
+      width: 45%;
+      margin-top: 2%; }
+      body .contact .contact-social .contact-social_header {
+        margin: 6% 0;
+        text-transform: uppercase; }
+      body .contact .contact-social .contact-social-icons-styles hr {
+        border: 0;
+        height: 0.3rem;
+        background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+        background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+        background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+        background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); }
+      body .contact .contact-social .contact-social-icons-styles .icon-facebook-squared {
+        font-size: 8rem;
+        transition: 0.2s; }
+        body .contact .contact-social .contact-social-icons-styles .icon-facebook-squared:hover {
+          cursor: pointer;
+          color: #3B5998; }
+      body .contact .contact-social .contact-social-icons-styles .icon-github-circled {
+        font-size: 8rem;
+        transition: 0.2s; }
+        body .contact .contact-social .contact-social-icons-styles .icon-github-circled:hover {
+          cursor: pointer;
+          color: #FFAF02; }
+      body .contact .contact-social .contact-social-icons-styles .icon-linkedin-squared {
+        font-size: 8rem;
+        transition: 0.2s; }
+        body .contact .contact-social .contact-social-icons-styles .icon-linkedin-squared:hover {
+          cursor: pointer;
+          color: #1D89D0; }
+      body .contact .contact-social .contact-social-styles {
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+        margin-left: 4rem;
+        text-align: left; }
+        body .contact .contact-social .contact-social-styles h3 {
+          font-size: 2.3rem; }
+  body footer {
+    width: 100%;
+    padding: 0.7rem;
+    font-size: 1.8rem;
+    background: #222222;
+    height: 4rem;
+    line-height: 2.8rem;
+    text-align: center;
+    box-shadow: 0 0 3.9rem 0 rgba(255, 255, 255, 0.75); }
+    body footer p {
+      margin: 0; }
+
+@media screen and (max-width: 1290px) {
+  body .projects .projects__img {
+    margin-top: 3rem;
+    width: 25rem;
+    height: 34.5rem; }
+    body .projects .projects__img .photo {
+      background-size: 25rem 25rem; }
+    body .projects .projects__img .photo2 {
+      background-size: 25rem 25rem; }
+    body .projects .projects__img .photo3 {
+      background-size: 25rem 25rem; }
+    body .projects .projects__img .photo4 {
+      background-size: 25rem 25rem; }
+    body .projects .projects__img .woop {
+      width: 25rem;
+      height: 25rem; }
+      body .projects .projects__img .woop .text {
+        width: 100%;
+        height: 100%; } }
+
+@media screen and (max-width: 1200px) {
+  body .projects .projects__img {
+    width: 80%;
+    height: 34.5rem; }
+    body .projects .projects__img .photo {
+      background-size: 80% 80%; }
+    body .projects .projects__img .photo2 {
+      background-size: 80% 80%; }
+    body .projects .projects__img .photo3 {
+      background-size: 80% 80%; }
+    body .projects .projects__img .photo4 {
+      background-size: 80% 80%; }
+    body .projects .projects__img .woop {
+      width: 100%;
+      height: 25rem; }
+      body .projects .projects__img .woop .text {
+        width: 100%;
+        height: 100%; } }
+
+@media screen and (max-width: 1080px) {
+  body .contact .contact-form_styles form .nameAndSurname, body .contact .contact-form_styles form .email {
+    width: 47%; }
+  body .contact .contact-form_styles form .email {
+    float: right; } }
+
+@media screen and (max-width: 991px) {
+  body .contact {
+    padding-bottom: 0; }
+    body .contact .contact-social {
+      width: 100%;
+      padding-top: 1rem;
+      padding-bottom: 2rem; }
+  body .skills .skills-header-tools {
+    margin-top: 15rem; } }
+
+@media screen and (max-width: 767px) {
+  body .navbar-collapse {
+    border: none;
+    box-shadow: none;
+    text-align: center;
+    padding: 1.4rem 0;
+    letter-spacing: 3px;
+    background-color: #1e2022;
+    overflow: hidden; }
+  body .content .content-intro h1 {
+    font-size: 5rem; }
+  body .content .content-intro h2 {
+    font-size: 3rem; }
+  body .content .content-styles-2 h2 {
+    font-size: 2rem; }
+  body .content .buttons .buttons-styles {
+    width: 80%; }
+  body .projects .projects__title {
+    padding-bottom: 2rem; }
+  body .projects .projects__img {
+    margin-top: 3rem;
+    width: 100%;
+    height: 34.5rem; }
+    body .projects .projects__img .photo {
+      background-size: 100% 25rem; }
+    body .projects .projects__img .photo2 {
+      background-size: 100% 25rem; }
+    body .projects .projects__img .photo3 {
+      background-size: 100% 25rem; }
+    body .projects .projects__img .photo4 {
+      background-size: 100% 25rem; }
+    body .projects .projects__img .woop {
+      width: 100%;
+      height: 25rem; }
+      body .projects .projects__img .woop .text {
+        width: 100%;
+        height: 100%; }
+  body .aboutMe .aboutMe-content .sub {
+    font-size: 2rem; }
+  body .aboutMe .aboutMe-content p {
+    font-size: 2rem; }
+  body .skills .skills-header-tools {
+    margin-top: 30rem; }
+  body .skills .skills-images {
+    margin-top: 6rem;
+    margin-bottom: 6rem; }
+    body .skills .skills-images .skills-images_technologies img {
+      margin-top: 0rem;
+      width: 80%;
+      height: 16rem; }
+  body .skills .skills-images2 .skills-images_tools img {
+    width: 100%;
+    height: 16rem; } }
+
+@media screen and (max-width: 690px) {
+  body .aboutMe .aboutMe-content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem; }
+    body .aboutMe .aboutMe-content .sub {
+      font-size: 2rem;
+      margin-left: -50px; }
+    body .aboutMe .aboutMe-content p {
+      font-size: 2rem; } }
+
+@media screen and (max-width: 540px) {
+  body .content {
+    padding-right: 1rem;
+    padding-left: 1rem; }
+    body .content .content-styles h1 {
+      font-size: 4rem; }
+    body .content .content-styles h2 {
+      font-size: 2.4rem; }
+    body .content .content-styles-2 {
+      padding-bottom: 3rem; }
+      body .content .content-styles-2 h2 {
+        font-size: 2rem; } }
+
+@media screen and (max-width: 475px) {
+  body .contact .contact-social .contact-social-styles {
+    margin-left: 0;
+    padding-left: 0; }
+    body .contact .contact-social .contact-social-styles h3 {
+      font-size: 2rem; } }
+
+@media screen and (max-width: 400px) {
+  body .content .content-intro {
+    padding-top: 10%; }
+    body .content .content-intro h1 {
+      font-size: 4rem; }
+    body .content .content-intro h2 {
+      font-size: 2.5rem;
+      padding-bottom: 1rem; }
+  body .aboutMe .aboutMe-content {
+    margin-left: 8%;
+    margin-right: 8%; }
+    body .aboutMe .aboutMe-content p {
+      margin: 0;
+      font-size: 1.7rem; }
+    body .aboutMe .aboutMe-content .sub {
+      margin-bottom: 4rem;
+      width: 110%; }
+  body footer {
+    display: none; } }
